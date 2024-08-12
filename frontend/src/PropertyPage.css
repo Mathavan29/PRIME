@@ -1,0 +1,83 @@
+/* General Property Page Styles */
+.property-container {
+    font-family: Arial, sans-serif;
+    padding: 2rem;
+  }
+  
+  /* Property Header */
+  .property-header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .property-header h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .price {
+    font-size: 2rem;
+    color: #e94e77; /* Accent color for price */
+  }
+  
+  /* Property Image */
+  .property-image {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .property-image img {
+    max-width: 100%;
+    border-radius: 10px; /* Optional: adds a rounded corner */
+  }
+  
+  /* Property Details */
+  .property-details,
+  .property-description,
+  .contact-agent {
+    margin-bottom: 2rem;
+    background: rgba(255, 255, 255, 0.9); /* Glassmorphism effect */
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  /* Features List */
+  .features-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .features-list li {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Contact Agent Section */
+  .contact-agent p {
+    font-size: 1.2rem;
+  }
+  
+  /* CTA Button */
+  .cta-button {
+    background-color: #e94e77; /* Changed to match accent color */
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    display: inline-block;
+    margin-top: 1rem;
+    transition: background-color 0.4s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #333;
+  }
+  
